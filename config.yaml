@@ -16,7 +16,7 @@ params:
   TwitterUser: stefbv70
   Github:
     Head: master
-    Url: http://github.com/stefansbv/stefansbv.github.io
-  Title: Ștefan Suciu's Blog
+    Url: http://github.com/stefansbv/stefansuciu.ro.git
+  Title: "Ștefan Suciu's Blog"
 pygmentsstyle: emacs
 pygmentsuseclasses: false
