@@ -4,6 +4,6 @@ sidebar: true
 weight: 1
 ---
 
-To do! :)
+To do, some day...
 
 Thanks for reading!
