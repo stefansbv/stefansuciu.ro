@@ -1,0 +1,22 @@
+---
+contentdir: content
+layoutdir: layouts
+publishdir: public
+builddrafts: false
+canonifyurls: true
+baseurl: http://stefansuciu.ro/
+indexes:
+  category: categories
+permalinks:
+  post: '/:year/:month/:title/'
+  fixed: '/:title/'
+params:
+  DateForm: Jan 2 2006
+  Author: Ștefan Suciu
+  TwitterUser: stefbv70
+  Github:
+    Head: master
+    Url: http://github.com/stefansbv/stefansbv.github.io
+  Title: Ștefan Suciu's Blog
+pygmentsstyle: emacs
+pygmentsuseclasses: false
