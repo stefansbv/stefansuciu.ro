@@ -5,6 +5,7 @@ build:
         version: 0.13
         theme: lanyon-hugo
         flags: --buildDrafts=false
+        flags: --disableSitemap=true
 deploy:
   steps:
     - lukevivier/gh-pages@0.2.1:

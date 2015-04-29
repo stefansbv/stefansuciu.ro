@@ -3,5 +3,9 @@
 
     <label for="sidebar-checkbox" class="sidebar-toggle"></label>
 
+{{ if .Site.Params.GoogleAnalytics }}
+{{ partial "google_analytics.html" . }}
+{{ end }}
+
   </body>
 </html>

@@ -11,12 +11,13 @@ permalinks:
   post: '/:year/:month/:title/'
   fixed: '/:title/'
 params:
+  Title: "Ștefan Suciu's Blog"
   DateForm: Jan 2 2006
   Author: Ștefan Suciu
   TwitterUser: stefbv70
   Github:
     Head: master
     Url: http://github.com/stefansbv/stefansuciu.ro.git
-  Title: "Ștefan Suciu's Blog"
-pygmentsstyle: emacs
-pygmentsuseclasses: false
+  GoogleAnalytics: UA-62428437-1
+  LanyonOptions: sidebar-overlay theme-base-08
+  MetaDataFormat: yaml
