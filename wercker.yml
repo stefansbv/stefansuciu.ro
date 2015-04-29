@@ -4,7 +4,7 @@ build:
     - arjen/hugo-build:
         version: 0.13
         theme: lanyon-hugo
-        flags: --buildDrafts=true
+        flags: --buildDrafts=false
 deploy:
   steps:
     - lukevivier/gh-pages@0.2.1:
