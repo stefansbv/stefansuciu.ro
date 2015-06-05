@@ -1,6 +1,6 @@
 ---
 date: 2015-06-05T20:01:10+03:00
-draft: true
+draft: false
 title: My First Module On CPAN
 categories:
     - CPAN
