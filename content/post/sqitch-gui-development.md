@@ -37,13 +37,25 @@ All was working well until I was rewriting a bigger part of the
 application when I started getting errors like:
 
 ```
-Can't use string (""menu_admin"") as a SCALAR ref while "strict refs" in use at .../lib/Method/Generate/Accessor/Role/InsideOut.pm line 21.
+Can't use string (""menu_app"") as a SCALAR ref while "strict refs" in use at .../lib/Method/Generate/Accessor/Role/InsideOut.pm line 21.
 
 ```
-While looking on the Net for solutions it turned out that it
-doesn't even need such a module, Moo already has a `FOREIGNBUILDARGS`
-method, thanks to
+
+While looking on the Net for a solutions it turned out that it
+doesn't even need the `MooX::InsideOut` module, Moo already has a
+`FOREIGNBUILDARGS` method, thanks to
 [tobyink](http://stackoverflow.com/users/1990570/tobyink) for the
 enlightening response on
 [stackowerflow]((http://stackoverflow.com/questions/27544191/what-is-an-equivalent-of-moosexnonmoose-for-moo).
 
+After removing the module, the error changed to:
+
+```
+Can't locate object method "menu_app" via package "Wx::MenuBar" at lib/App/Sqitch/GUI/View/MenuBar.pm line 66.
+```
+
+This looks more familiar, but there is a `menu_app` method in the
+`App::Sqitch::GUI::View::MenuBar` package, what's going on?  I managed
+to reproduce the error with a script, but it took some time until I
+realized where is the problem, the `via package` should be
+`App::Sqitch::GUI::View::MenuBar` not `Wx::MenuBar`.

@@ -4,6 +4,7 @@ layoutdir: layouts
 publishdir: public
 builddrafts: false
 canonifyurls: true
+disablerss: true
 baseurl: http://stefansuciu.ro/
 indexes:
   category: categories
