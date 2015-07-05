@@ -16,7 +16,6 @@ params:
   DateForm: Jan 2 2006
   Author: Ștefan Suciu
   TwitterUser: stefbv70
-  disqusShortname: stefansuciu
   DisqusUser: stefansuciu
   Github:
     Head: master
