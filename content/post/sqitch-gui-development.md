@@ -1,5 +1,5 @@
 ---
-date: 2015-05-23T15:12:11+03:00
+date: 2015-07-05T14:01:52+03:00
 draft: true
 title: Sqitch GUI development
 categories:
@@ -8,7 +8,7 @@ categories:
     - Notes
 ---
 
-I'm experimenting this days with a project to make a GUI for the
+I'm experimenting lately with a project to make a GUI for the
 excellent [Sqitch](http://sqitch.org) database change management
 application.  I started the project some time ago, and because lately
 it got some attention from the author of Sqitch - [David
@@ -58,4 +58,12 @@ This looks more familiar, but there is a `menu_app` method in the
 `App::Sqitch::GUI::View::MenuBar` package, what's going on?  I managed
 to reproduce the error with a script, but it took some time until I
 realized where is the problem, the `via package` should be
-`App::Sqitch::GUI::View::MenuBar` not `Wx::MenuBar`.
+`App::Sqitch::GUI::View::MenuBar` not `Wx::MenuBar`.  The solution of
+the problem was, again, unexpected, there is no real need to subclass
+`Wx::MenuBar`. See my question and the answers on
+[PerlMonks](http://www.perlmonks.org/?node_id=1129292), for details,
+if interested.
+
+{{% img src="/media/sqitch-gui-project.png" class="aligncenter size-full" caption="Sqitch GUI screenshot" %}}
+
+
