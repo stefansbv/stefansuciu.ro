@@ -1,6 +1,6 @@
 ---
 date: 2015-07-05T14:01:52+03:00
-draft: true
+draft: false
 title: Sqitch GUI development
 categories:
     - Sqitch GUI
@@ -64,6 +64,14 @@ the problem was, again, unexpected, there is no real need to subclass
 [PerlMonks](http://www.perlmonks.org/?node_id=1129292), for details,
 if interested.
 
-{{% img src="/media/sqitch-gui-project.png" class="aligncenter size-full" caption="Sqitch GUI screenshot" %}}
+Here is a screen-shot of the application with it's current look:
 
+{{% img src="/media/sqitch-gui-project.png" class="aligncenter size-full" %}}
+
+Changes:
+
+ - Simplified projects dialog;
+ - Add syntax highlighting to the log widget;
+ - Started switching to Moo;
+ - Hopefully an improved API;
 
