@@ -7,15 +7,24 @@ var uglify     = require('gulp-uglify');
 var rename     = require('gulp-rename');
 var imagemin   = require('gulp-imagemin');
 var cache      = require('gulp-cache');
+var minifyCSS  = require('gulp-minify-css');
 const pngquant = require('imagemin-pngquant');
 
 // Concatenate & Minify JS
 gulp.task('scripts', function() {
-    return gulp.src('src/js/*.js')
+    return gulp.src('src/js/**/*.js')
         .pipe(concat('main.js'))
         .pipe(rename({suffix: '.min'}))
         .pipe(uglify())
         .pipe(gulp.dest('static/js'));
+});
+
+// // Concatenate & Minify CSS
+gulp.task('minify-css', function() {
+    return gulp.src('src/css/**/*.css')
+    .pipe(minifyCSS())
+    .pipe(concat('style.min.css'))
+    .pipe(gulp.dest('static/css'));
 });
 
 // Minify PNG, JPEG, GIF and SVG images
@@ -30,4 +39,4 @@ gulp.task('images', function() {
 });
 
 // Default Task
-gulp.task('default', ['scripts', 'images']);
+gulp.task('default', ['scripts', 'minify-css', 'images']);
