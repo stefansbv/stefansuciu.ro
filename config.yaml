@@ -6,6 +6,7 @@ builddrafts: false
 canonifyurls: true
 disablerss: true
 paginate: 3
+MetaDataFormat: yaml
 baseurl: http://stefansuciu.ro/
 indexes:
   category: categories
@@ -23,4 +24,3 @@ params:
     URL: http://github.com/stefansbv/stefansuciu.ro.git
   GoogleAnalytics: UA-62428437-1
   LanyonOptions: sidebar-overlay theme-base-08
-  MetaDataFormat: yaml
