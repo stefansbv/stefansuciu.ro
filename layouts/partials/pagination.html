@@ -2,12 +2,12 @@
 {{ if gt $pag.TotalPages 1 }}
 <div class="pagination">
   {{ if $pag.HasNext }}
-    <a class="pagination-item older" href="{{ $pag.Next.Url }}">Older</a>
+    <a class="pagination-item older" href="{{ $pag.Next.URL }}">Older</a>
   {{ else }}
     <span class="pagination-item older">Older</span>
   {{ end }}
   {{ if $pag.HasPrev }}
-    <a class="pagination-item newer" href="{{ $pag.Prev.Url }}">Newer</a>
+    <a class="pagination-item newer" href="{{ $pag.Prev.URL }}">Newer</a>
   {{ else }}
     <span class="pagination-item newer">Newer</span>
   {{ end }}

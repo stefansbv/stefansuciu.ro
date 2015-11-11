@@ -16,7 +16,7 @@ Both content types call out to a set of general HTML files which provide the uni
 In Jekyll, you can nest layouts. Lanyon's `page` and `post` layouts are both based on a `default` layout. The `default` layout is the one that provides things like the header and the sidebar. But Hugo doesn't have this functionality, so I took the `default` layout, and I split it into two files: `default_head.html` and `default_foot.html`. These two are meant to be included at the top and bottom, respectively, of any other content views. You can see this in `fixed/single.html` and `post/single.html`.
 
 ## Sidebar
-The most interesting chrome is probably `layouts/chrome/sidebar.html`. This is mostly based on Lanyon's `_includes/sidebar.html`, but ported to Go templates instead of Liquid. We identify the homepage and postlist via `.Url`. Rendered pages (with a content type) do not implement the `.Url` variable, so it comes back as the blank string.
+The most interesting chrome is probably `layouts/chrome/sidebar.html`. This is mostly based on Lanyon's `_includes/sidebar.html`, but ported to Go templates instead of Liquid. We identify the homepage and postlist via `.URL`. Rendered pages (with a content type) do not implement the `.URL` variable, so it comes back as the blank string.
 
 Any pages whose front matter sets the `sidebar` flag are also added to the sidebar (sorted by weight). We match the active page (if any) using its `.Permalink`. Both nodes and pages provide the `.Permalink` variable, so this lets you pin any content to the sidebar. The sidebar also retains the GitHub integration from the original Lanyon, where it lists a repository of your choice.
 

@@ -13,8 +13,11 @@
   </div>
 
   {{ .Content }}
+
   {{ if .Site.Params.DisqusUser }}
-  {{ partial "disqus.html" . }}
+    {{ if not .Params.nocomment }}
+      {{ partial "disqus.html" . }}
+    {{ end }}
   {{ end }}
 </div>
 

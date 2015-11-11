@@ -19,7 +19,7 @@ params:
   DisqusUser: stefansuciu
   Github:
     Head: master
-    Url: http://github.com/stefansbv/stefansuciu.ro.git
+    URL: http://github.com/stefansbv/stefansuciu.ro.git
   GoogleAnalytics: UA-62428437-1
   LanyonOptions: sidebar-overlay theme-base-08
   MetaDataFormat: yaml
