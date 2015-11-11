@@ -5,6 +5,7 @@ publishdir: public
 builddrafts: false
 canonifyurls: true
 disablerss: true
+paginate: 3
 baseurl: http://stefansuciu.ro/
 indexes:
   category: categories
