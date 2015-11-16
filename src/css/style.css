@@ -1,5 +1,6 @@
 /* Custom site style */
 
+/* Align social buttons */
 .flex-container {
     display: -webkit-flex;
     display: flex;
@@ -7,3 +8,10 @@
     justify-content: space-between;
 }
 
+/* Sidebar list */
+p.sidebar-list-label {
+    margin-bottom: 0;
+}
+ul.sidebar-list-ul {
+    list-style-type: square;
+}

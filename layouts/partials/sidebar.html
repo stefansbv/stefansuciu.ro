@@ -22,9 +22,12 @@
 
   <div class="sidebar-item">
     {{ $baseurl := .Site.BaseURL }}
+    <span class="sidebar-list-label"><p>Categories:</p></span>
+    <ul class="sidebar-list-ul">
     {{ range $key, $value := .Site.Taxonomies.categories }}
-    <a href="{{ $baseurl }}/categories/{{ $key | urlize }}/index.html">{{ $key | title }}</a>
+    <li><a href="{{ $baseurl }}/categories/{{ $key | urlize }}/index.html">{{ $key | title }}</a></li>
     {{ end }}
+    </ul>
   </div>
 
   <div class="sidebar-item">

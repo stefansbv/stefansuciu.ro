@@ -22,7 +22,6 @@ gulp.task('scripts', function() {
 // Concatenate & Minify CSS
 gulp.task('minify-css', function() {
     return gulp.src('src/css/**/*.css')
-        .pipe(concat('main.css'))
         .pipe(rename({suffix: '.min'}))
         .pipe(minifyCSS())
         .pipe(gulp.dest('static/css'));
