@@ -1,9 +1,12 @@
 ---
 title:
-description:
+description: Description here
+tags:
+    - test
 categories:
     - post
-tags:
-    - meta
-    - test
+series:
+    - name
+nocomment: false
+draft: true
 ---
