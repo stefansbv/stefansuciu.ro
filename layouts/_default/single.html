@@ -14,11 +14,7 @@
 
   {{ .Content }}
 
-  {{ if .Site.Params.DisqusUser }}
-    {{ if not .Params.nocomment }}
-      {{ partial "disqus.html" . }}
-    {{ end }}
-  {{ end }}
+  {{ partial "disqus.html" . }}
 </div>
 
 {{ partial "default_foot.html" . }}
