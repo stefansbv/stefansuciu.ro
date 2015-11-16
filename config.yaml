@@ -8,14 +8,16 @@ disablerss: true
 paginate: 3
 MetaDataFormat: yaml
 baseurl: http://stefansuciu.ro/
-indexes:
+taxonomies:
+  tag: tags
   category: categories
+  series: series
 permalinks:
   post: '/:year/:month/:title/'
   fixed: '/:title/'
 params:
   Title: "Ștefan Suciu's Blog"
-  DateForm: Jan 2 2006
+  DateForm: 2006-01-02
   Author: Ștefan Suciu
   TwitterUser: stefbv70
   DisqusUser: stefansuciu
