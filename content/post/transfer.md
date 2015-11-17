@@ -2,7 +2,7 @@
 date: 2015-11-16T13:34:03+02:00
 title: The data Transfer application
 description: Transfer - an application for transforming and transferring data
-nocomment: false
+comment: true
 draft: false
 categories:
 - Projects
