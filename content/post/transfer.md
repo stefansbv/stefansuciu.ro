@@ -129,7 +129,7 @@ Comments on the subject are welcome, but will be moderated, of course ;)
 
 ## Acknowledgements ##
 
-Concepts, blocks of code and even entire modules, comments and
+Some concepts, blocks of code and even entire modules, comments and
 documentation are borrowed and/or inspired from the excellent
 [Sqitch](https://github.com/theory/sqitch) project by @theory.  Thank
 you!
