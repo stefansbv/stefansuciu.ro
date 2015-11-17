@@ -3,8 +3,10 @@ date: 2015-06-05T20:01:10+03:00
 draft: false
 title: My First Module On CPAN
 categories:
-    - CPAN
-    - Notes
+- Projects
+tags:
+- perl
+- cpan
 ---
 
 I have reached another milestone today, I have released my first Perl

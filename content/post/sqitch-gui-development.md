@@ -3,9 +3,10 @@ date: 2015-07-05T14:01:52+03:00
 draft: false
 title: Sqitch GUI development
 categories:
-    - Sqitch GUI
-    - wxPerl
-    - Notes
+- Projects
+tags:
+- wxperl
+- sqitch
 ---
 
 I'm experimenting lately with a project to make a GUI for the

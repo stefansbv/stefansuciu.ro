@@ -7,9 +7,9 @@ draft: false
 categories:
 - Projects
 tags:
-- Perl
-- Firebird
-- PostgreSQL
+- perl
+- firebird
+- postgresql
 - csv
 - xls
 ---
