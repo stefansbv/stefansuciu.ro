@@ -13,6 +13,8 @@ I have reached another milestone today, I have released my first Perl
 module distribution to CPAN:
 [Business::RO::CIF](https://metacpan.org/release/Business-RO-CIF).
 
+<!--more-->
+
 It is a simple module, for validating a Romanian CIF (Cod de
 Identificare Fiscală) Tax Identification Code and it is complementary
 to, and inspired from another module from the `Business::RO::` name

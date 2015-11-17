@@ -9,12 +9,14 @@ tags:
 - sqitch
 ---
 
-I'm experimenting lately with a project to make a GUI for the
-excellent [Sqitch](http://sqitch.org) database change management
-application.  I started the project some time ago, and because lately
-it got some attention from the author of Sqitch - [David
+I'm experimenting with a project to make a GUI for the excellent
+[Sqitch](http://sqitch.org) database change management application.  I
+started the project some time ago, and because lately it got some
+attention from the author of Sqitch - [David
 E. Wheeler](https://github.com/theory), I was stimulated to continue
 working on it.
+
+<!--more-->
 
 Sqitch was first written in Perl
 [Moose](https://metacpan.org/pod/Moose) as initially was my [Sqitch

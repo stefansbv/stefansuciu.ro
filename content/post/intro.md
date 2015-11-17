@@ -9,6 +9,7 @@ here short articles about my software and hardware projects and about
 my experiments.  Also this could be a good place for safekeeping
 notes, tips and tricks.
 
+<!--more-->
 
 ### Acknowledgements
 
