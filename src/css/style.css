@@ -12,6 +12,7 @@
 p.sidebar-list-label {
     margin-bottom: 0;
 }
-ul.sidebar-list-ul {
-    list-style-type: square;
-}
+a.tags:link    { font-size:85%; }
+a.tags:link    { color:#c0c0c0;text-decoration:none;}
+a.tags:visited { color:#c0c0c0;text-decoration:none;}
+a.tags:hover   { color:#808080;text-decoration:underline;}

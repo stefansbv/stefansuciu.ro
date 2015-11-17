@@ -1,1 +1,1 @@
-.flex-container{display:-webkit-flex;display:flex;-webkit-justify-content:space-between;justify-content:space-between}p.sidebar-list-label{margin-bottom:0}ul.sidebar-list-ul{list-style-type:square}
+a.tags:link,a.tags:visited{color:silver;text-decoration:none}.flex-container{display:-webkit-flex;display:flex;-webkit-justify-content:space-between;justify-content:space-between}p.sidebar-list-label{margin-bottom:0}a.tags:link{font-size:85%}a.tags:hover{color:grey;text-decoration:underline}
