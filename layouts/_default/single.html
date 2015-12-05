@@ -4,18 +4,19 @@
   <h1 class="post-title">{{ .Title }}</h1>
 
   <div class="flex-container">
-	<div class="post-date">
-	  {{ .Date.Format .Site.Params.DateForm }} in {{ range .Params.categories }}
-	  <a href="/categories/{{ . | urlize | lower }}" class="btn btn-primary">{{ . }}</a>
-	  {{ end }}
-	  <div class="tags">
-		<i class="fa fa-tag"></i>
-		{{ range $tag := .Params.tags }}
-		<a class="tags" href="/tags/{{ $tag | urlize }}">#{{ $tag | lower }}</a>
-		{{ end }}
-	  </div>
-	</div>
-	<div class="post-date"> {{ partial "share.html" . }} </div>
+    <div class="post-date">
+      {{ .Date.Format .Site.Params.DateForm }} in {{ range .Params.categories }}
+      <a href="/categories/{{ . | urlize | lower }}" class="btn btn-primary">{{ . }}</a>
+      {{ end }}
+      <div class="tags">
+        <i class="fa fa-tag"></i>
+        {{ range $tag := .Params.tags }}
+        <span class="muted">&middot;</span>
+        <a class="tags" href="/tags/{{ $tag | urlize }}">#{{ $tag | lower }}</a>
+        {{ end }}
+      </div>
+    </div>
+    <div class="post-date"> {{ partial "share.html" . }} </div>
   </div>
 
   {{ .Content }}
