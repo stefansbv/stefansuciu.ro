@@ -7,6 +7,7 @@ draft: false
 categories:
 - Projects
 tags:
+- tools
 - perl
 - firebird
 - postgresql
@@ -22,17 +23,11 @@ databases using recipes.
 
 <!--more-->
 
-I always wanted to be able to make some transformation to data as
-easily as possible, and of course there are many software application
-suitable for this task, generically named ETL (Extract, Transform and
-Load).  One of the applications that I liked most is Pentaho Data
-Integration
-([Kettle](http://community.pentaho.com/projects/data-integration/)),
-but implementing a simpler custom solution was a long time desire.
-
-So, this is my solution for the problem, and of course is suitable for
-my current needs, that involves small datasets kept in various
-formats.
+I always wanted to be able to make some transformation to data as easy
+as possible.  Of course, there are many software solutions suitable
+for this task, generically named ETL (Extract, Transform and Load) and
+one of the applications that I liked most is Pentaho Data Integration
+([Kettle](http://community.pentaho.com/projects/data-integration/)).
 
 The concept is simple, read a data table from a source, row by row,
 optionally make some transformations on it, and transfer it to the
