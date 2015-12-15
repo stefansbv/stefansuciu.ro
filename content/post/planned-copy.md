@@ -108,6 +108,15 @@ Another feature, in the devel branch, is an optional project parameter
 for the `list` command, to print the files in the directory.
 
 
+Installation
+------------
+
+This is a Perl application built with Moose and
+[MooseX::App](https://metacpan.org/pod/MooseX::App) and Dist::Zilla.
+It has many dependencies, so it's not easy to install from source, but
+I will provide a package made with Cava Packager for the next release.
+
+
 Quick Usage
 -----------
 
@@ -141,5 +150,5 @@ $ plcp install emacs
 
 The project is "work in progress" on
 [GitHub](https://github.com/stefansbv/planned-copy) and is open
-source.  I use it almost every day, but has a few known bugs and
+source.  I use it almost every day, but it has a few known bugs and
 probably many unknown bugs.
