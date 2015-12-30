@@ -116,6 +116,8 @@ This is a Perl application built with Moose and
 It has many dependencies, so it's not easy to install from source, but
 I will provide a package made with Cava Packager for the next release.
 
+Update: Done, see the releases on GitHub.
+
 
 Quick Usage
 -----------
