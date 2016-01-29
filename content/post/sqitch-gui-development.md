@@ -69,7 +69,7 @@ if interested.
 
 Here is a screen-shot of the application with it's current look:
 
-{{% img src="/media/sqitch-gui-project.png" class="aligncenter size-full" %}}
+{{% img src="/images/sqitch-gui-project.png" class="aligncenter size-full" %}}
 
 Changes:
 

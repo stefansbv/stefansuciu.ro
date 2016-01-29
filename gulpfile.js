@@ -29,13 +29,13 @@ gulp.task('minify-css', function() {
 
 // Minify PNG, JPEG, GIF and SVG images
 gulp.task('images', function() {
-    return gulp.src('src/images/*')
+    return gulp.src('src/images/**/*')
         .pipe(imagemin({
             progressive: true,
             svgoPlugins: [{removeViewBox: false}],
             use: [pngquant()]
         }))
-        .pipe(gulp.dest('static/media'));
+        .pipe(gulp.dest('static/images'));
 });
 
 // Default Task
