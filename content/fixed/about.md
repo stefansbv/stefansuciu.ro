@@ -7,12 +7,24 @@ contact: true
 weight: 1
 ---
 
-Hello and welcome to my blog, my name is Ștefan Suciu, I'm a software
+Hello, and welcome to my blog, my name is Ștefan Suciu, I'm a software
 developer and I have a mechanical engineer degree.
 
 I have 15+ years experience developing Perl GUI and CLI database
-applications.  Some other interests of mine include data extraction
-and manipulation, automation, amateur electronics, rock and pop.
+applications.
+
+I like to learn about, and experiment with different technologies, so
+my knowledge is rather wide than deep, excepting the above mentioned
+experience.
+
+Another of my relatively newer field of interest is for Web
+development.  This blog uses the [Hugo](http://gohugo.io/) static site
+generator, but my former *s2i2.ro* site was created using the [Perl
+Dancer](http://perldancer.org/) web application framework, but also
+published as a static site.
+
+Some other interests of mine include data extraction and manipulation,
+automation, amateur electronics, rock and pop.
 
 I usually work with relational databases like Firebird, PostgreSQL,
 SQLite, MySQL and CUBRID but also had some exposure to Access.
