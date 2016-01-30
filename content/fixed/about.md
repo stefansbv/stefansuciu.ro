@@ -3,6 +3,7 @@ date: 2016-01-30T14:37:48+02:00
 title: About
 sidebar: true
 comment: false
+contact: true
 weight: 1
 ---
 
