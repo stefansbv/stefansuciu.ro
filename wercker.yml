@@ -13,4 +13,4 @@ deploy:
         token: $GIT_TOKEN
         domain: stefansuciu.ro
         basedir: public
-        branch: master
+
