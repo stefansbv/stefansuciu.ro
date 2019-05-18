@@ -2,7 +2,7 @@ box: debian
 build:
   steps:
     - arjen/hugo-build:
-        version: "0.55.1"
+        version: "0.55.6"
         theme: lanyon-hugo
         flags: --buildDrafts=false
 deploy:
