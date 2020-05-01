@@ -39,4 +39,4 @@ gulp.task('images', function() {
 });
 
 // Default Task
-gulp.task('default', ['scripts', 'minify-css', 'images']);
+gulp.task('default', gulp.parallel('scripts', 'minify-css', 'images'));
