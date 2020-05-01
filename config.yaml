@@ -7,7 +7,7 @@ canonifyurls: true
 disablerss: true
 paginate: 3
 MetaDataFormat: yaml
-baseurl: http://stefansuciu.ro/
+baseURL: http://stefansuciu.ro/
 taxonomies:
   tag: tags
   category: categories

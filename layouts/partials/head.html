@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width">
 
   <title>
-    {{ if eq .Params.url "/" }}
+    {{ if .IsHome }}
       {{ .Site.Params.Title }} &middot; {{ .Site.Params.Tagline }}
     {{ else }}
       {{ .Title }} &middot; {{ .Site.Params.Title }}
