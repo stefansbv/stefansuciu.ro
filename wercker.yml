@@ -7,8 +7,6 @@ build:
       flags: --buildDrafts=false
 deploy:
   steps:
-    - install-packages:
-      packages: git ssh-client
     - wt365/gh-pages:
       token: $GIT_TOKEN
       domain: stefansuciu.ro
