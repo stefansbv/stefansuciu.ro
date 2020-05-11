@@ -2,14 +2,14 @@ box: debian
 build:
   steps:
     - arjen/hugo-build:
-        version: "0.69.2"
-        theme: lanyon-hugo
-        flags: --buildDrafts=false
+      version: "0.69.2"
+      theme: lanyon-hugo
+      flags: --buildDrafts=false
 deploy:
   steps:
     - install-packages:
-        packages: git ssh-client
+      packages: git ssh-client
     - wt365/gh-pages:
-        token: $GIT_TOKEN
-        domain: stefansuciu.ro
-        path: public
+      token: $GIT_TOKEN
+      domain: stefansuciu.ro
+      path: public
