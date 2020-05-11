@@ -1,3 +1,7 @@
+# This references a standard debian container from the
+# Docker Hub https://registry.hub.docker.com/_/debian/
+# Read more about containers on our dev center
+# https://devcenter.wercker.com/overview-and-core-concepts/containers/
 box: debian
 build:
   steps:
@@ -13,4 +17,3 @@ deploy:
         token: $GIT_TOKEN
         domain: stefansuciu.ro
         basedir: public
-
