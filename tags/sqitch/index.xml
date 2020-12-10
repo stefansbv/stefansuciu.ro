@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>sqitch on </title>
+    <link>http://stefansuciu.ro/tags/sqitch/</link>
+    <description>Recent content in sqitch on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Sun, 05 Jul 2015 14:01:52 +0300</lastBuildDate>
+    
+	<atom:link href="http://stefansuciu.ro/tags/sqitch/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Sqitch GUI development</title>
+      <link>http://stefansuciu.ro/2015/07/sqitch-gui-development/</link>
+      <pubDate>Sun, 05 Jul 2015 14:01:52 +0300</pubDate>
+      
+      <guid>http://stefansuciu.ro/2015/07/sqitch-gui-development/</guid>
+      <description>&lt;p&gt;I&amp;rsquo;m experimenting with a project to make a GUI for the excellent
+&lt;a href=&#34;http://sqitch.org&#34;&gt;Sqitch&lt;/a&gt; database change management application.  I
+started the project some time ago, and because lately it got some
+attention from the author of Sqitch - &lt;a href=&#34;https://github.com/theory&#34;&gt;David
+E. Wheeler&lt;/a&gt;, I was stimulated to continue
+working on it.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

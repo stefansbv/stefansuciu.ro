@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>http://stefansuciu.ro/fixed/about/</loc>
+    <lastmod>2016-01-30T14:37:48+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://stefansuciu.ro/fixed/projects/tpda3/intro/</loc>
+    <lastmod>2016-01-28T16:11:28+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://stefansuciu.ro/</loc>
+    <lastmod>2016-01-30T14:37:48+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://stefansuciu.ro/fixed/</loc>
+    <lastmod>2016-01-30T14:37:48+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://stefansuciu.ro/categories/</loc>
+    <lastmod>2016-01-28T16:11:28+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://stefansuciu.ro/tags/perl/</loc>
+    <lastmod>2016-01-28T16:11:28+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://stefansuciu.ro/categories/projects/</loc>
+    <lastmod>2016-01-28T16:11:28+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://stefansuciu.ro/tags/</loc>
+    <lastmod>2016-01-28T16:11:28+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://stefansuciu.ro/posts/</loc>
+    <lastmod>2015-12-14T12:09:52+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://stefansuciu.ro/2015/12/the-plannedcopy-application/</loc>
+    <lastmod>2015-12-14T12:09:52+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://stefansuciu.ro/tags/tools/</loc>
+    <lastmod>2015-12-14T12:09:52+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://stefansuciu.ro/tags/csv/</loc>
+    <lastmod>2015-11-16T13:34:03+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://stefansuciu.ro/tags/firebird/</loc>
+    <lastmod>2015-11-16T13:34:03+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://stefansuciu.ro/tags/postgresql/</loc>
+    <lastmod>2015-11-16T13:34:03+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://stefansuciu.ro/2015/11/the-data-transfer-application/</loc>
+    <lastmod>2015-11-16T13:34:03+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://stefansuciu.ro/tags/xls/</loc>
+    <lastmod>2015-11-16T13:34:03+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://stefansuciu.ro/tags/sqitch/</loc>
+    <lastmod>2015-07-05T14:01:52+03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://stefansuciu.ro/2015/07/sqitch-gui-development/</loc>
+    <lastmod>2015-07-05T14:01:52+03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://stefansuciu.ro/tags/wxperl/</loc>
+    <lastmod>2015-07-05T14:01:52+03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://stefansuciu.ro/tags/cpan/</loc>
+    <lastmod>2015-06-05T20:01:10+03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://stefansuciu.ro/2015/06/my-first-module-on-cpan/</loc>
+    <lastmod>2015-06-05T20:01:10+03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://stefansuciu.ro/2015/04/intro/</loc>
+    <lastmod>2015-04-22T13:45:13+03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://stefansuciu.ro/series/</loc>
+  </url>
+  
+</urlset>

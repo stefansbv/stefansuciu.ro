@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
+
+  <head>
+  <link href="http://gmpg.org/xfn/11" rel="profile">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+
+  
+  <meta name="viewport" content="width=device-width">
+
+  <title>
+    
+      The data Transfer application &middot; Ștefan Suciu&#39;s Blog
+    
+  </title>
+
+  
+  <link rel="stylesheet" href="http://stefansuciu.ro/css/poole.min.css"/>
+  <link rel="stylesheet" href="http://stefansuciu.ro/css/syntax.min.css"/>
+  <link rel="stylesheet" href="http://stefansuciu.ro/css/lanyon.min.css"/>
+  <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=PT+Serif:400,400italic,700|PT+Sans:400"/>
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css"/>
+  <link rel="stylesheet" href="http://stefansuciu.ro/css/prism.min.css"/>
+  <link rel="stylesheet" href="http://stefansuciu.ro/css/style.min.css"/>
+
+  
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="http://stefansuciu.ro/assets/apple-touch-icon-144-precomposed.png"/>
+  <link rel="shortcut icon" href="http://stefansuciu.ro/assets/favicon.ico"/>
+
+  
+  <link rel="alternate" type="application/rss+xml" title="RSS" href="http://stefansuciu.ro/index.xml"/>
+
+  
+  <link rel="canonical" href="http://stefansuciu.ro/2015/11/the-data-transfer-application/"/>
+</head>
+
+
+  <body class="sidebar-overlay theme-base-08">
+
+    
+<input type="checkbox" class="sidebar-checkbox" id="sidebar-checkbox">
+
+
+<div class="sidebar" id="sidebar">
+  <div class="sidebar-item">
+    <p>A technologically oriented blog with a simple design.</p>
+  </div>
+
+  <nav class="sidebar-nav">
+    <a class="sidebar-nav-item " href="http://stefansuciu.ro/posts">Home</a>
+    <a class="sidebar-nav-item " href="http://stefansuciu.ro/posts">Posts</a>
+
+    
+    
+      
+        <a class="sidebar-nav-item " href="http://stefansuciu.ro/fixed/about/">About</a>
+      
+    
+      
+        <a class="sidebar-nav-item " href="http://stefansuciu.ro/fixed/projects/tpda3/intro/">Tpda3</a>
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+  </nav>
+
+  <div class="sidebar-item">
+    
+    <span class="sidebar-list-label"><p>Categories:</p></span>
+    <ul class="fa-ul">
+      
+      <li><i class="fa-li fa fa-check-square"></i><a href="http://stefansuciu.ro//categories/projects/index.html">Projects</a></li>
+    
+    </ul>
+  </div>
+
+  <div class="sidebar-item">
+    <p>&copy; 2016. All rights reserved.</p>
+  </div>
+</div>
+
+
+    
+    <div class="wrap">
+      <div class="masthead">
+        <div class="container">
+          <h3 class="masthead-title">
+            <a href="http://stefansuciu.ro/" title="Home">Ștefan Suciu&#39;s Blog</a>
+          </h3>
+        </div>
+      </div>
+
+      <div class="container content">
+
+
+<div class="post">
+  <h1 class="post-title">The data Transfer application</h1>
+
+  <div class="flex-container">
+    <div class="post-date">
+      2015-11-16 in 
+      <a href="http://stefansuciu.ro/categories/projects" class="btn btn-primary">Projects</a>
+      
+      <div class="tags">
+        <i class="fa fa-tag"></i>
+        
+        <span class="muted">&middot;</span>
+        <a class="tags" href="http://stefansuciu.ro/tags/tools">#tools</a>
+        
+        <span class="muted">&middot;</span>
+        <a class="tags" href="http://stefansuciu.ro/tags/perl">#perl</a>
+        
+        <span class="muted">&middot;</span>
+        <a class="tags" href="http://stefansuciu.ro/tags/firebird">#firebird</a>
+        
+        <span class="muted">&middot;</span>
+        <a class="tags" href="http://stefansuciu.ro/tags/postgresql">#postgresql</a>
+        
+        <span class="muted">&middot;</span>
+        <a class="tags" href="http://stefansuciu.ro/tags/csv">#csv</a>
+        
+        <span class="muted">&middot;</span>
+        <a class="tags" href="http://stefansuciu.ro/tags/xls">#xls</a>
+        
+      </div>
+    </div>
+    <div class="post-date"> <span class="share-buttons">
+	<a href="https://twitter.com/intent/tweet?source=http%3a%2f%2fstefansuciu.ro%2f2015%2f11%2fthe-data-transfer-application%2f&text=The%20data%20Transfer%20application:http%3a%2f%2fstefansuciu.ro%2f2015%2f11%2fthe-data-transfer-application%2f" target="_blank" title="Tweet"><i class="fa fa-twitter-square fa-lg"></i></a>
+	<a href="http://www.linkedin.com/shareArticle?mini=true&url=http%3a%2f%2fstefansuciu.ro%2f2015%2f11%2fthe-data-transfer-application%2f&title=The%20data%20Transfer%20application&summary=The%20data%20Transfer%20application&source=http%3a%2f%2fstefansuciu.ro%2f2015%2f11%2fthe-data-transfer-application%2f" target="_blank" title="Share on LinkedIn"><i class="fa fa-linkedin-square fa-lg"></i></a>
+</span>
+ </div>
+  </div>
+
+  <p>This is an introductory article about my (relatively) new open source
+command line application named <em>Transfer</em>.</p>
+<p><em>Transfer</em> is about transforming and transferring data between files and
+databases using recipes.</p>
+<p>I always wanted to be able to make some transformation to data as easy
+as possible.  Of course, there are many software solutions suitable
+for this task, generically named ETL (Extract, Transform and Load) and
+one of the applications that I liked most is Pentaho Data Integration
+(<a href="http://community.pentaho.com/projects/data-integration/">Kettle</a>).</p>
+<p>The concept is simple, read a data table from a source, row by row,
+optionally make some transformations on it, and transfer it to the
+destination table.  The required definitions of the transformations
+are hold in configurations files named <code>recipes</code>.</p>
+<p>Features:</p>
+<ul>
+<li>easily extensible multi database support (currently: Firebird and PostgreSQL);</li>
+<li>file (.csv and .xls) and database input readers;</li>
+<li>database output writer;</li>
+<li>plug-in system for simple data transformations;</li>
+</ul>
+<h2 id="concepts">Concepts</h2>
+<h3 id="the-recipe-">The Recipe</h3>
+<p>The recipe is a file in Apache format (parsed with the Config::General
+Perl module) and describes the source and the destination and how to
+transform the data.  Transformations are made using plugins.</p>
+<p>The simplest recipe defines only the source, the destination and the
+mapping for the fields from the source with those of the destination.</p>
+<p>In this example the structure of the source and destination tables is
+identical, but the role of the <code>headermap</code> configuration is to allow
+mapping fields with different names - a rename field transformation.</p>
+<pre><code># Transformation recipe
+&lt;recipe&gt;
+  version               = 1
+  syntaxversion         = 1
+  name                  = Copy table
+  description           = Users data from db1_prod to db1_dev
+&lt;/recipe&gt;
+
+&lt;config&gt;
+  &lt;source&gt;
+    reader              = db
+    target              = db1_prod
+    table               = users
+  &lt;/source&gt;
+
+  &lt;destination&gt;
+    writer              = db
+    target              = db1_dev
+    table               = users
+  &lt;/destination&gt;
+&lt;/config&gt;
+
+&lt;tables&gt;
+  &lt;table users&gt;
+    description         = Users table
+    logfield            =
+    &lt;headermap&gt;
+      user_id           = user_id
+      name              = name
+      dep_id            = dep_id
+    &lt;/headermap&gt;
+  &lt;/table&gt;
+&lt;/tables&gt;
+
+&lt;transform column/&gt;
+
+&lt;transform row/&gt;
+</code></pre><h3 id="plugins-">Plugins</h3>
+<p>A <code>plugin</code> is a Perl module specialized to make simple transformations.
+It receives a hash reference containing info about the field (and some
+extra info needed for logging) and the current value.  Transforms the
+value using Perl functions and returns the new value.  Plugin
+functions can be chained together to make complex transformations.</p>
+<p>The <code>transform column</code> and <code>transform row</code> sections of the <code>recipe</code>
+uses plugins to make column and row transformations.</p>
+<h2 id="conclusion-">Conclusion</h2>
+<p>This is the introductory article about my <em>Transfer</em> application -
+transforming and transferring data between files and databases using
+recipes.  More elaborate examples will be presented in my next article
+on the subject.</p>
+<p>The source code is on GitHub: <a href="https://github.com/stefansbv/transfer">https://github.com/stefansbv/transfer</a></p>
+<p>Comments on the subject are welcome, but will be moderated, of course ;)</p>
+<h2 id="acknowledgements-">Acknowledgements</h2>
+<p>Some concepts, blocks of code and even entire modules, comments and
+documentation are borrowed and/or inspired from the excellent
+<a href="https://github.com/theory/sqitch">Sqitch</a> project by @theory.  Thank
+you!</p>
+  
+
+
+  
+
+<div id="disqus_thread"></div>
+<script type="text/javascript">
+(function() {
+    
+    
+    if (window.location.hostname == "localhost")
+        return;
+
+    var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+    var disqus_shortname = 'stefansuciu';
+    dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+})();
+</script>
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="http://disqus.com/" class="dsq-brlink">Comments powered by <span class="logo-disqus">Disqus</span></a>
+
+
+
+</div>
+
+      </div>
+    </div>
+
+    <label for="sidebar-checkbox" class="sidebar-toggle"></label>
+
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-62428437-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+
+
+    
+    <script src="http://stefansuciu.ro/js/main.min.js"></script>
+
+  </body>
+</html>
+

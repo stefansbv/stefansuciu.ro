@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on </title>
+    <link>http://stefansuciu.ro/posts/</link>
+    <description>Recent content in Posts on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Mon, 14 Dec 2015 12:09:52 +0200</lastBuildDate>
+    
+	<atom:link href="http://stefansuciu.ro/posts/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>The PlannedCopy Application</title>
+      <link>http://stefansuciu.ro/2015/12/the-plannedcopy-application/</link>
+      <pubDate>Mon, 14 Dec 2015 12:09:52 +0200</pubDate>
+      
+      <guid>http://stefansuciu.ro/2015/12/the-plannedcopy-application/</guid>
+      <description>&lt;p&gt;PlannedCopy (plcp) is another tool from my toolbox, an automated copy
+utility for Linux.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>The data Transfer application</title>
+      <link>http://stefansuciu.ro/2015/11/the-data-transfer-application/</link>
+      <pubDate>Mon, 16 Nov 2015 13:34:03 +0200</pubDate>
+      
+      <guid>http://stefansuciu.ro/2015/11/the-data-transfer-application/</guid>
+      <description>&lt;p&gt;This is an introductory article about my (relatively) new open source
+command line application named &lt;em&gt;Transfer&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Transfer&lt;/em&gt; is about transforming and transferring data between files and
+databases using recipes.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Sqitch GUI development</title>
+      <link>http://stefansuciu.ro/2015/07/sqitch-gui-development/</link>
+      <pubDate>Sun, 05 Jul 2015 14:01:52 +0300</pubDate>
+      
+      <guid>http://stefansuciu.ro/2015/07/sqitch-gui-development/</guid>
+      <description>&lt;p&gt;I&amp;rsquo;m experimenting with a project to make a GUI for the excellent
+&lt;a href=&#34;http://sqitch.org&#34;&gt;Sqitch&lt;/a&gt; database change management application.  I
+started the project some time ago, and because lately it got some
+attention from the author of Sqitch - &lt;a href=&#34;https://github.com/theory&#34;&gt;David
+E. Wheeler&lt;/a&gt;, I was stimulated to continue
+working on it.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>My First Module On CPAN</title>
+      <link>http://stefansuciu.ro/2015/06/my-first-module-on-cpan/</link>
+      <pubDate>Fri, 05 Jun 2015 20:01:10 +0300</pubDate>
+      
+      <guid>http://stefansuciu.ro/2015/06/my-first-module-on-cpan/</guid>
+      <description>&lt;p&gt;I have reached another milestone today, I have released my first Perl
+module distribution to CPAN:
+&lt;a href=&#34;https://metacpan.org/release/Business-RO-CIF&#34;&gt;Business::RO::CIF&lt;/a&gt;.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Intro</title>
+      <link>http://stefansuciu.ro/2015/04/intro/</link>
+      <pubDate>Wed, 22 Apr 2015 13:45:13 +0300</pubDate>
+      
+      <guid>http://stefansuciu.ro/2015/04/intro/</guid>
+      <description>&lt;p&gt;This is my introductory post on my new blog.  My plan is to publish
+here short articles about my software and hardware projects and about
+my experiments.  Also this could be a good place for safekeeping
+notes, tips and tricks.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

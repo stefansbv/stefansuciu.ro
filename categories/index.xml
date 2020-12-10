@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Categories on </title>
+    <link>http://stefansuciu.ro/categories/</link>
+    <description>Recent content in Categories on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Thu, 28 Jan 2016 16:11:28 +0200</lastBuildDate>
+    
+	<atom:link href="http://stefansuciu.ro/categories/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Projects</title>
+      <link>http://stefansuciu.ro/categories/projects/</link>
+      <pubDate>Thu, 28 Jan 2016 16:11:28 +0200</pubDate>
+      
+      <guid>http://stefansuciu.ro/categories/projects/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

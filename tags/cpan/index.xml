@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>cpan on </title>
+    <link>http://stefansuciu.ro/tags/cpan/</link>
+    <description>Recent content in cpan on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Fri, 05 Jun 2015 20:01:10 +0300</lastBuildDate>
+    
+	<atom:link href="http://stefansuciu.ro/tags/cpan/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>My First Module On CPAN</title>
+      <link>http://stefansuciu.ro/2015/06/my-first-module-on-cpan/</link>
+      <pubDate>Fri, 05 Jun 2015 20:01:10 +0300</pubDate>
+      
+      <guid>http://stefansuciu.ro/2015/06/my-first-module-on-cpan/</guid>
+      <description>&lt;p&gt;I have reached another milestone today, I have released my first Perl
+module distribution to CPAN:
+&lt;a href=&#34;https://metacpan.org/release/Business-RO-CIF&#34;&gt;Business::RO::CIF&lt;/a&gt;.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>
