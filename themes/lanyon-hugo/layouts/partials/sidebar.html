@@ -5,20 +5,35 @@
 <!-- Toggleable sidebar -->
 <div class="sidebar" id="sidebar">
   <div class="sidebar-item">
-    <p>A technologically oriented blog with a simple design.</p>
+    <p>
+      {{- with .Site.Params.description }}
+      {{ . | markdownify }}
+      {{- else }}
+      A reserved <a href="http://jekyllrb.com" target="_blank">Jekyll</a> theme that places the utmost gravity on content with a hidden drawer. Made by <a href="https://twitter.com/mdo" target="_blank">@mdo</a>.
+      {{- end }}
+    </p>
   </div>
 
   <nav class="sidebar-nav">
-    <a class="sidebar-nav-item {{ if eq .URL "/" }} active {{ end }}" href="/">Home</a>
-    <a class="sidebar-nav-item {{ if eq .URL "post" }} active {{ end }}" href="/post">Posts</a>
+    <a class="sidebar-nav-item {{ if .IsHome }} active {{ end }}" href="/">Home</a>
+    <a class="sidebar-nav-item {{ if eq .RelPermalink "/post/" }} active {{ end }}" href="/post">Posts</a>
+    {{- $currentPage := . }}
+    {{- range .Site.Menus.main -}}
+    <a class="sidebar-nav-item{{if or ($currentPage.IsMenuCurrent "main" .) ($currentPage.HasMenuCurrent "main" .) }} active{{end}}" href="{{ .URL }}" title="{{ .Title }}">{{ .Name }}</a>
+    {{- end -}}
 
-    {{ $thisperma := .Permalink }}
-    {{ range .Site.Pages.ByWeight }}
-      {{ if isset .Params "sidebar" }}
+    {{- $thisperma := .Permalink }}
+    {{ range .Site.Pages.ByWeight -}}
+      {{ if isset .Params "sidebar" -}}
         <a class="sidebar-nav-item {{ if eq .Permalink $thisperma }} active {{ end }}" href="{{ .Permalink }}">{{ .Title }}</a>
-      {{ end }}
-    {{ end }}
+      {{ end -}}
+    {{ end -}}
 
+    {{- with .Site.Params.Github }}
+    <a class="sidebar-nav-item" href="{{ .url }}/archive/{{ .head }}.zip">Download</a>
+    <a class="sidebar-nav-item" href="{{ .url }}">GitHub project</a>
+    <span class="sidebar-nav-item">Currently on {{ .head }}</span>
+    {{ end -}}
   </nav>
 
   <div class="sidebar-item">

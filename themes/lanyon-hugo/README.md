@@ -18,8 +18,6 @@ Hugo's universal config file is [`config.json`](config.json) (or YAML, or TOML).
 
 The original Lanyon had a layout for "pages", fixed content that didn't have a date. Lanyon-Hugo retains this concept, and refers to these pages as "fixed" (that's the content type, if you're familiar with Hugo concepts). Fixed pages will not display a date, only a title, and they will not be listed on the homepage of your site. Pages such as About (an example `about.md` has been lifted from the parent Lanyon) should generally be fixed.
 
-You can alter the content of the custom 404 via [`fixed/404.md`](content/fixed/404.md). This is useful if you want a custom 404 for your GitHub Page.
-
 ### Sidebar Links
 
 To indicate that a given piece of content should be linked in the sidebar, add a key `sidebar` to the front matter, and set it to `true`. See [`about.md`](content/fixed/about.md) for an example of this. You can pin content to the sidebar regardless of whether it is a post, or if it is fixed.
@@ -32,14 +30,13 @@ Lanyon-Hugo generates a post list at `/post/`. By default, Lanyon doesn't actual
 
 ### Look and Feel
 
-The CSS from the original Lanyon is unchanged, and you can find it in [`static/css`](static/css). Any of the modifications suggested for Lanyon can also be applied to Lanyon-Hugo, by changing the CSS here.
+The CSS from the original Lanyon is unchanged, and you can find it in [`static/css`](static/css). Any of the modifications suggested for Lanyon can also be applied to Lanyon-Hugo, by changing the CSS here. You can find these tweaks in the [upstream README](https://github.com/poole/lanyon#themes).
 
-You can use syntax highlighting, if you have [Pygments](http://pygments.org/). See the "example content" post for an example. Lanyon has a color scheme of some kind for Pygments in `css/syntax.css`, but right now Hugo doesn't know how to use it (everything will be higlighted in Monokai). When Hugo implements this feature, I will also add it to Lanyon-Hugo. More detail on Hugo's syntax highlighting shortcode can be found [here](http://hugo.spf13.com/extras/highlighting).
+You can use syntax highlighting, if you have [Pygments](http://pygments.org/). See the "example content" post for an example. Lanyon has a color scheme of some kind for Pygments in `css/syntax.css`, which this theme will use. More detail on Hugo's syntax highlighting shortcode can be found [here](http://hugo.spf13.com/extras/highlighting). You can also generate CSS for other pygments themes like so:
 
-## To Do
-
-While Lanyon-Hugo is aiming for functional compatibility with Lanyon (ie all the old functionality is available and looks similar), there are still some things I'm missing:
-- pagination. Lanyon-Hugo does not have next/previous buttons (well they're there, but as you can see, they don't have any links). Jekyll's pagination feature is quite good, but Hugo's pagination is still on the roadmap for now. I may implement a hackish solution in the meantime, but ideally I'd rather wait until Hugo has a solid solution for this problem.
+```bash
+pygmentize -f html -S colorful -a .highlight > static/css/syntax.css
+```
 
 ## Contributing
 

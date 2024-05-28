@@ -2,10 +2,6 @@
     </div>
 
     <label for="sidebar-checkbox" class="sidebar-toggle"></label>
-
-{{ if .Site.Params.GoogleAnalytics }}
-{{ partial "google_analytics.html" . }}
-{{ end }}
-
+    {{ template "_internal/google_analytics_async.html" . }}
   </body>
 </html>
